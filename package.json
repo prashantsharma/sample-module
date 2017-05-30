@@ -1,0 +1,36 @@
+{
+  "name": "@prashantsharma/sample-module",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "tslint src/**/*.ts",
+    "test": "tsc && karma start",
+    "postinstall": "typings install",
+    "prepublish": "tsc",
+    "tsc": "tsc",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Prashant Sharma <prashant.pab@gmail.com>",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/core": "2.4.0",
+    "@angular/common": "2.4.0",
+    "codelyzer": "~2.0.0",
+    "rxjs": "5.2.0",
+    "tslint": "5.2.0",
+    "typescript": "2.3.0",
+    "typings": "^1.0.4",
+    "zone.js": "0.7.7"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "## Installation"
+}
