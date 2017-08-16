@@ -1,5 +1,7 @@
 # angular-sample-module
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/prashantsharma/sample-module.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 To install this library, run:
